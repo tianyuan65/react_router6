@@ -24,7 +24,7 @@ const routes= [
                 element:<Message/>,
                 children:[
                     {
-                        path:'detail/:id/:title/:context',
+                        path:'detail/:id/:title/:content',
                         element:<Detail/>
                     }
 

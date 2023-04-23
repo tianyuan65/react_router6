@@ -23,7 +23,7 @@ export default function Message() {
                 }
             </ul>
             <hr />
-            {/* 指定路由组件的展示位置 */}
+            {/* 指定路由组件的展示位置，就是展示<Detail/>内容的位置 */}
             <Outlet />
         </div>
     )
