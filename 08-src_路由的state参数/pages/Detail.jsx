@@ -2,6 +2,7 @@ import React from 'react'
 import { useLocation } from 'react-router-dom'
 
 export default function Detail() {
+    // 使用useLocation()，获取state参数，并使用连续解构赋值来获取state参数中具体的属性
     const {state:{id,title,content}}=useLocation()
     return (
         <ul>

@@ -23,7 +23,6 @@ export default function Message() {
                                         title:m.title,
                                         content:m.content
                                     }}
-                                
                                 >{m.title}</Link>
                             </li>
                         )
