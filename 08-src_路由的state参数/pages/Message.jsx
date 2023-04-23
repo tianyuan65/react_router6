@@ -12,7 +12,7 @@ export default function Message() {
         <div>
             <ul>
                 {
-                    messages.map=(m)=>{
+                    messages.map((m)=>{
                         return (
                             // 路由链接
                             <li key={m.id}>
@@ -27,7 +27,7 @@ export default function Message() {
                                 >{m.title}</Link>
                             </li>
                         )
-                    }
+                    })
                 }
             </ul>
             <hr />
